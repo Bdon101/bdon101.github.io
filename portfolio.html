@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css"/>
 
 </head>
-<body>
+<body id="body">
     <nav class="navbar">
         <h1 class="logo">
             <a href="index.html">Bdon's Website</a>
@@ -15,6 +15,8 @@
 
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
             <li><a href="blog.html">Blog</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="resume.html">Resume</a></li>
@@ -22,17 +24,37 @@
         </ul>
     </nav>
     <main>
+      <div class="grad">
         <h1 class="page-title">Portfolio</h1>
-        <div class="project">
-            <a href="index.html"><img src="dumpling.png" alt="Dumpy"></a>
-            <div class="project-details">
-                <p class="project-name">Project Name</p>
-                <p class="project-description">I like projects</p>
+      </div>
+            <div class="portfolio">
+          <div class="project">
+            <div class="project-image">
+              <a href="index.html"><img src="hack4impact_portfolio.png" alt="Porty"></a>
             </div>
-            
-        </div>
+            <div class="project-details">
+              <p class="project-name">Personal Website</p>
+              <p class="project-description">
+                Designed and built a personal website using HTML and CSS
+              </p>
+            </div>
+          </div>
 
-    </main>
+          <div class="project">
+            <div class="project-image">
+              <a href="https://www.calpolycsa.org/"><img src="csa_portfolio.png" alt="Porty"></a>
+            </div>
+            <div class="project-details">
+              <p class="project-name">CSA Website</p>
+              <p class="project-description">
+                Designed and built on Squarespace
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
     <footer class="footer">2023 My Personal Website | All Rights Reserved | Made with love</footer>
+    <script src="app.js" charset="utf-8"></script>
+
 </body>
 </html>

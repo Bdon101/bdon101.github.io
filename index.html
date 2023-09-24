@@ -6,7 +6,7 @@
     <title>Bdon Personal Website</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
-<body>
+<body id="body" class="homebody">
     <nav class="navbar">
         <h1 class="logo">
             <a href="index.html">Bdon's Website</a>
@@ -14,36 +14,31 @@
 
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
             <li><a href="blog.html">Blog</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main>
-        <h1 class="page-title">About</h1>
-        <div class="about">
-            <div class="about-image">
-                <img src="dumpling.png" alt="dumpling">
-            </div>
-            <div class="about-text">
-              <p>
-                <strong>Hack4Impact</strong> is a 501c3
-                <em>non-profit organization</em> that does non-profit software
-                development in support of local non-profits. We build websites,
-                volunteer management systems, and web applications that an
-                organization would require to accomplisht their goals.
-              </p>
-              <p>
-                This year we are working with <strong>nine</strong> non-profits to
-                further their mission and provide them software tools. Organizations
-                we have worked in the past include <strong>NAACP</strong>,
-                <strong>Habitat 4 Humanity</strong>, <strong>Lumina</strong>, and
-                more!
-              </p>
-            </div>
-          </div>
+    <main id="homepage">
+      <div>
+        <h1>Hi I'm Brandon Eng</h1>
+
+      <div class="home-detail">
+        <p>
+          I'm a 3rd Year Computer Science Major at Cal Poly SLO with interests in Software Development and AI. 
+        </p>
+      
+
+        <a href='about.html'><button>Learn More</button></a>
+        <a href='https://www.linkedin.com/in/brandon-eng801/'><button>LinkedIn</button></a>
+      </div>
+
+      </div>
     </main>
     <footer class="footer">2023 My Personal Website | All Rights Reserved | Made with love</footer>
+    <script src="app.js" charset="utf-8"></script>
 </body>
 </html>

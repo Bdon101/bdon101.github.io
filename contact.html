@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css"/>
 
 </head>
-<body>
+<body id="body"> 
     <nav class="navbar">
         <h1 class="logo">
             <a href="index.html">Bdon's Website</a>
@@ -15,6 +15,8 @@
 
         <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
             <li><a href="blog.html">Blog</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="resume.html">Resume</a></li>
@@ -22,11 +24,13 @@
         </ul>
     </nav>
     <main>
-        <h1 class="page-title">Contact</h1>
+        <div class="grad">
+            <h1 class="page-title">Contact</h1>
+        </div>
         <form id="contact-form">
 
-            <input type="text" id="name">
-            <input type="email" id="email">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
             <textarea>
                 
             </textarea>
@@ -36,5 +40,7 @@
 
     </main>
     <footer class="footer">2023 My Personal Website | All Rights Reserved | Made with love</footer>
+    <script src="app.js" charset="utf-8"></script>
+
 </body>
 </html>
